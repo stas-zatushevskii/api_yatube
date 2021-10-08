@@ -1,4 +1,4 @@
-from posts.models import Comment, Group, Post
+from posts.models import Group, Post
 from rest_framework import status, viewsets
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
